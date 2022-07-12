@@ -1,0 +1,30 @@
+@import "./../../styles/variables.scss";
+
+header {
+  //  margin-left: -100px ;
+    background-color: $bg-color;
+
+   .header {
+    display: flex;
+    justify-content: center;
+
+}
+
+.title {
+    color: $primary-color;
+    font-size: 64px;
+    font-family:  $font-title;
+
+}
+
+.author {
+    color: $secondary-color;
+    font-size: 20px;
+    font-family: $font-text;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 325px;
+}
+}
+  

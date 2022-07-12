@@ -1,0 +1,26 @@
+@import "./../../styles/variables.scss";
+
+Form {
+    padding: 0 20px 20px 20px;
+
+    h3, h5 {
+        font-family: $font-text;
+        color: $secondary-color;
+    }
+
+    .error {
+        color: red;
+        //font-size: 23px;
+    }
+
+}
+.success-submit {
+    padding: 10px 0;
+    text-align: center;
+
+    strong {
+        font-size: 32px;
+        color: #1F7A8C;
+    }
+}
+

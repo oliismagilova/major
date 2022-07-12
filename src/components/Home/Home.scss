@@ -1,0 +1,13 @@
+@import "./../../styles/variables.scss";
+
+p {
+    padding-left: 20px;
+    padding-right: 160px;
+}
+.home {
+    background-image: url("../../images/puppy.png");
+    background-repeat: no-repeat;
+    height: 344px;
+    background-position: center;
+    background-position-y: bottom;
+}

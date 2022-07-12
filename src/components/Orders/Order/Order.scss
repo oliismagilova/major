@@ -1,0 +1,17 @@
+@import "./../../../styles/variables.scss";
+
+.task-component{
+    padding: 0 20px 20px 20px;
+}
+h3,
+h5 {
+    font-family: $font-text;
+    color: $secondary-color;
+}
+
+.cardTitle {
+    padding-left: 20px;
+    font-family: $font-text;
+    color: $text-color;
+}
+

@@ -1,0 +1,21 @@
+@import "./../../styles/variables.scss";
+
+nav {
+  //  background-color: $text-color;
+    display: flex;
+   // justify-content: space-between;
+    font-size: 20px;
+    font-family: $font-text;
+
+    a {
+        padding: 20px 40px 20px 20px;
+        color: $text-color;
+        text-decoration: none;
+
+        &:hover {
+            background-color: $bg-color;
+            color: $secondary-color;
+            border-radius: 8px;
+        }
+    }
+}
